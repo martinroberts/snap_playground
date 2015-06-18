@@ -1,0 +1,204 @@
+<project name="list examples" app="Snap! 4.0, http://snap.berkeley.edu" version="1">
+    <notes/>
+    <thumbnail>
+data:image/png;base64,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
+</thumbnail>
+    <stage name="Stage" width="480" height="360" costume="0" tempo="60" threadsafe="false" lines="round" codify="false" scheduled="false" id="1">
+        <pentrails>
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAOhUlEQVR4Xu3VwQkAAAjEMN1/abewn7jAQRC64wgQIECAAIF3gX1fNEiAAAECBAiMAHsCAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQICLAfIECAAAECgYAAB+gmCRAgQICAAPsBAgQIECAQCAhwgG6SAAECBAgIsB8gQIAAAQKBgAAH6CYJECBAgIAA+wECBAgQIBAICHCAbpIAAQIECAiwHyBAgAABAoGAAAfoJgkQIECAgAD7AQIECBAgEAgIcIBukgABAgQIHLFxAWmhEwHPAAAAAElFTkSuQmCC
+</pentrails>
+        <costumes>
+            <list id="2"/>
+        </costumes>
+        <sounds>
+            <list id="3"/>
+        </sounds>
+        <variables/>
+        <blocks/>
+        <scripts/>
+        <sprites>
+            <sprite name="Sprite" idx="1" x="0" y="0" heading="90" scale="1" rotation="1" draggable="true" costume="0" color="80,80,80" pen="tip" id="8">
+                <costumes>
+                    <list id="9"/>
+                </costumes>
+                <sounds>
+                    <list id="10"/>
+                </sounds>
+                <variables/>
+                <blocks/>
+                <scripts>
+                    <script x="10" y="15">
+                        <block s="receiveGo"/>
+                        <block s="doShowVar">
+                            <l>imperative_list</l>
+                        </block>
+                        <block s="doShowVar">
+                            <l>functional_list</l>
+                        </block>
+                    </script>
+                    <script x="245" y="31">
+                        <block s="doSetVar">
+                            <l>imperative_list</l>
+                            <block s="reportNewList">
+                                <list>
+                                    <l>3</l>
+                                </list>
+                            </block>
+                        </block>
+                    </script>
+                    <script x="242" y="85">
+                        <block s="doAddToList">
+                            <block s="reportNewList">
+                                <list>
+                                    <l>a</l>
+                                    <l>b</l>
+                                    <l>c</l>
+                                </list>
+                            </block>
+                            <block var="imperative_list"/></block>
+                    </script>
+                    <script x="241" y="138">
+                        <block s="doAddToList">
+                            <l>4</l>
+                            <block var="imperative_list"/></block>
+                    </script>
+                    <script x="248" y="186">
+                        <block s="doInsertInList">
+                            <l>7</l>
+                            <l>2</l>
+                            <block var="imperative_list"/></block>
+                    </script>
+                    <script x="242" y="240">
+                        <block s="doDeleteFromList">
+                            <l>1</l>
+                            <block var="imperative_list"/></block>
+                    </script>
+                    <script x="239" y="293">
+                        <block s="doReplaceInList">
+                            <l>3</l>
+                            <block var="imperative_list"/>
+                            <block var="imperative_list"/></block>
+                    </script>
+                    <script x="24" y="379">
+                        <block s="doSetVar">
+                            <l>functional_list</l>
+                            <block s="reportCONS">
+                                <l>h</l>
+                                <block var="functional_list"/></block>
+                        </block>
+                    </script>
+                    <script x="23" y="333">
+                        <block s="doSetVar">
+                            <l>functional_list</l>
+                            <block s="reportNewList">
+                                <list/>
+                            </block>
+                        </block>
+                    </script>
+                    <script x="20" y="439">
+                        <block s="doSetVar">
+                            <l>functional_list</l>
+                            <block s="reportCDR">
+                                <block var="functional_list"/></block>
+                        </block>
+                    </script>
+                </scripts>
+            </sprite>
+            <watcher var="imperative_list" style="normal" x="10" y="31.000001999999995" color="243,118,29" extX="80" extY="70"/>
+            <watcher var="imperative_list" style="normal" x="10.000000000000455" y="10.000000000000014" color="243,118,29"/>
+            <watcher var="imperative_list" style="normal" x="10" y="124.00000399999999" color="243,118,29" extX="80" extY="70"/>
+            <watcher var="functional_list" style="normal" x="164" y="71.00000599999998" color="243,118,29" extX="80" extY="70"/>
+        </sprites>
+    </stage>
+    <hidden/>
+    <headers/>
+    <code/>
+    <blocks/>
+    <variables>
+        <variable name="imperative_list">
+            <list id="72">
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>4</l>
+                </item>
+                <item>
+                    <l>7</l>
+                </item>
+                <item>
+                    <list id="73">
+                        <item>
+                            <l>4</l>
+                        </item>
+                        <item>
+                            <l>7</l>
+                        </item>
+                        <item>
+                            <ref id="73"/>
+                        </item>
+                        <item>
+                            <l>4</l>
+                        </item>
+                        <item>
+                            <l>4</l>
+                        </item>
+                    </list>
+                </item>
+                <item>
+                    <l>4</l>
+                </item>
+                <item>
+                    <l>4</l>
+                </item>
+            </list>
+        </variable>
+        <variable name="functional_list">
+            <list id="74">
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+                <item>
+                    <l>h</l>
+                </item>
+            </list>
+        </variable>
+    </variables>
+</project>
+
